@@ -11,8 +11,8 @@ import argparse
 import shutil
 import re
 
-TEMP_DIR_NAME = "Editor"
-PATH_TO_VAULT = "/Users/ronikbhaskar/Documents/Vault"
+TEMP_DIR_NAME = "NameOfEditorFolder"
+PATH_TO_VAULT = "/path/to/your/Vault"
 PATH_TO_TEMP = os.path.join(PATH_TO_VAULT, TEMP_DIR_NAME)
 PATH_TO_IMAGES = os.path.join(PATH_TO_VAULT, "Files")
 VALID_MD_EXTS = [".md"]
